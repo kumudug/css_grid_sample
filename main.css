@@ -1,8 +1,9 @@
 .container {
     margin: 20px;
+    height: 500px;
     display: grid;
-    grid-template-columns: 200px 1fr 20% 2fr;
-    grid-template-rows: 5rem 5rem;
+    grid-template-columns: 200px 100px 20% auto;
+    grid-template-rows: 5rem auto;
 }
 
 .el1 {
