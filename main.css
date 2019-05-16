@@ -4,6 +4,8 @@
     /* grid-template-columns: 200px 100px 20% auto; */
     grid-template-columns: [grid-row-start] repeat(2, 100px) minmax(50px, 200px) repeat(2, 100px);
     grid-template-rows: repeat(3, 5rem);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
 }
 
 .el1 {
@@ -12,19 +14,13 @@
 
 .el2 {
     background: rgba(255, 0, 0, 0.5);
-    grid-column-start: 1;
-    grid-column-end:-1;
-    grid-row-start: 2;
 }
 
 .el3 {
     background: rgba(0, 128, 0, 0.5);
     grid-column-start: 3;
-    /* grid-column-end: 5; */
-    /* grid-column-end: span 3; */
-    grid-column-end: -2;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-column-end: 5; 
+    grid-column-end: span 3;
 }
 
 .el4 {
